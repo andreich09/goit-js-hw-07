@@ -1,0 +1,23 @@
+/* style to task-3 */
+
+.galleryCard__style {
+    display: inline-flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* task-6 */
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
